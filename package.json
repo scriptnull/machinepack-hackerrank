@@ -1,0 +1,29 @@
+{
+  "name": "machinepack-hackerrank",
+  "version": "0.1.0",
+  "description": "Communicate with HackerRank API",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "HackerRank",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "machine": "^3.0.0"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^0.2.2"
+  },
+  "machinepack": {
+    "friendlyName": "HackerRank",
+    "machineDir": "machines/",
+    "machines": [
+      "submit",
+      "submit-file"
+    ]
+  }
+}
