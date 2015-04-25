@@ -10,13 +10,17 @@
     "machines",
     "machinepack"
   ],
-  "author": "",
+  "author": "Vishnu Bharathi <vishnubharathi04@gmail.com> (https://twitter.com/scriptnull)",
   "license": "MIT",
   "dependencies": {
     "machine": "^3.0.0"
   },
   "devDependencies": {
     "test-machinepack-mocha": "^0.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scriptnull/machinepack-hackerrank.git"
   },
   "machinepack": {
     "friendlyName": "HackerRank",
