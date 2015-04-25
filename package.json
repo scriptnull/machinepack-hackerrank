@@ -1,6 +1,6 @@
 {
   "name": "machinepack-hackerrank",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Communicate with HackerRank API",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
@@ -24,8 +24,8 @@
   },
   "bugs": {
     "url": "https://github.com/scriptnull/machinepack-hackerrank/issues"
-  } ,
-  "homepage": "https://github.com/scriptnull/machinepack-hackerrank" ,
+  },
+  "homepage": "https://github.com/scriptnull/machinepack-hackerrank",
   "machinepack": {
     "friendlyName": "HackerRank",
     "machineDir": "machines/",
