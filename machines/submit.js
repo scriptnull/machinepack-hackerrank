@@ -102,7 +102,7 @@ module.exports = {
       });
     });
     req.on('error', function (err) {
-      return exists.error(err);
+      return exits.error(err);
     })
     req.write(data);
     req.end();
